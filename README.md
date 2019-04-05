@@ -5,8 +5,14 @@ Some popular courses in UNSW is hard to enroll in. When you are late, chances ar
 
 That's why I wrote this tiny little script to monitor the timetable page of specific courses offered by UNSW. It is understood that the enrolment status on timetable page does not reflect the real time status. There might be a 1 day delay. The most accurate way is to use myUNSW. However, that might still helps if you don't want to log on myUNSW and try your luck every now and then.
 
-It should work fine but I have not tested it as a whole.
+It should work fine but I have not successfully used it:( The course is always full.
 
 ## Usage
 
-Find the course id in the DOM of the timetable page. Search '1PGA' in the source code of the page and you will see. Set up your email smtp service in order to send email when the course is available. Then run it on your server.
+`pip install -r requirements.txt`
+
+Read the source code. Look for where you should modify the code. Especially the SMTP settings and the actual parameter to track the course.
+
+I could make it more user friendly like when you provide a course code and the desired term as the attributes and the program would execute directly. Butttttt I am lazy :) If you can find this, you more or less know something about scripting and can figure it out yourself.
+
+Please use it with consideration of others!
