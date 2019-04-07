@@ -40,7 +40,7 @@ def begin_monitor():
             print("got it")
             send_email()
             break
-        time.sleep(600)
+        time.sleep(1800)
 
 if __name__ == '__main__':
     # id can be found in the DOM of the classutil page

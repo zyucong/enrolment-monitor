@@ -38,7 +38,7 @@ def begin_monitor():
         if status != 'Full':
             send_email()
             break
-        time.sleep(600)
+        time.sleep(1800)
 
 if __name__ == '__main__':
     # id can be found in the dom of the timetable page
